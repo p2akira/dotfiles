@@ -45,7 +45,7 @@ set matchtime=2
 " 構文ごとに色分け表示する
 syntax on
 " カラースキーム
-colorscheme molokai
+" colorscheme molokai
 " [ syntax on ] の場合のコメント文の色を変更する
 highlight Comment ctermfg=lightgrey
 " 背景色
@@ -109,4 +109,4 @@ set incsearch
 "検索時に最後まで行ったら最初に戻る
 set wrapscan
 "検索結果のハイライトをEsc連打でクリアする
-nnoremap <ESC><ESC> :nohlsearch<CR>
+" nnoremap <ESC><ESC> :nohlsearch<CR>
